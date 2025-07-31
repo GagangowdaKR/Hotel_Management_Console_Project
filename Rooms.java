@@ -15,8 +15,8 @@ public class Rooms{
     public boolean getAvailablity(){
         return availability;
     }
-    public void setAvailability(){
-        this.availability = true;
+    public void setAvailability(boolean status){
+        this.availability = status;
     }
 
     public int getRoomNo(){
@@ -28,11 +28,11 @@ public class Rooms{
     public int getPrice(){
         return price;
     }
-    public void setPrice(){
-        this.price = 0;
+    public void setPrice(int price){
+        this.price = price;
     }
 
-    public void setRoomType() {
-        this.roomType = "";
+    public void setRoomType(String type) {
+        this.roomType = type;
     }
 }
