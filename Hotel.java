@@ -9,17 +9,17 @@ public class Hotel {
     private  ArrayList<Customer> customers = new ArrayList<>();
 
     {
-        allRooms.add(new Rooms(100, "", true, 2500));
-        allRooms.add(new Rooms(101, "", true, 2500));
-        allRooms.add(new Rooms(102, "", true, 2500));
-        allRooms.add(new Rooms(103, "", true, 2500));
-        allRooms.add(new Rooms(104, "", true, 2500));
+        allRooms.add(new Rooms(100, "", true, 0));
+        allRooms.add(new Rooms(101, "", true, 0));
+        allRooms.add(new Rooms(102, "", true, 0));
+        allRooms.add(new Rooms(103, "", true, 0));
+        allRooms.add(new Rooms(104, "", true, 0));
 
-        allRooms.add(new Rooms(105, "", true, 2000));
-        allRooms.add(new Rooms(106, "", true, 2000));
-        allRooms.add(new Rooms(107, "", true, 2000));
-        allRooms.add(new Rooms(108, "", true, 2000));
-        allRooms.add(new Rooms(109, "", true, 2000));
+        allRooms.add(new Rooms(105, "", true, 0));
+        allRooms.add(new Rooms(106, "", true, 0));
+        allRooms.add(new Rooms(107, "", true, 0));
+        allRooms.add(new Rooms(108, "", true, 0));
+        allRooms.add(new Rooms(109, "", true, 0));
     }
 
     public void displayAvailableRooms(){
